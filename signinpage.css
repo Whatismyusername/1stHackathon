@@ -1,0 +1,62 @@
+html{
+    -webkit-animation: html 5s infinite;
+}
+div{
+    height:100%;
+    border-radius:10px;
+}
+h1{
+    font-family:Bungee Shade;
+    text-shadow:0px 0px 50px #6699ff;
+    font-size:300%;
+}
+h6{
+    font-size:200%;
+    margin:0px;
+}
+input{
+    -webkit-animation:div 4s infinite;
+    margin:30px;
+    font-size:200%;
+}
+button{
+    float:right;
+    border-radius:100px;
+    font-size:300%;
+    -webkit-animation: button 4s infinite;
+}
+@-webkit-keyframes button{
+    0%{background-color:#66ff66}
+    80%{background-color:#ffffff}
+    100%{background-color:#66ff66}
+}
+@-webkit-keyframes html{
+    0%{background-color:#33adff}
+    33%{background-color:#00ff99}
+    66%{background-color:#ffff66}
+    100%{background-color:#33adff}
+}
+#left{
+    background-image:url("https://www.gofundmission.org/projectzionpodcast/wp-content/uploads/2016/02/17unity-in-diversity.png");
+    -webkit-animation: div 4s infinite;
+    float:left;
+    width:40%;
+}
+@-webkit-keyframes div{
+    0%{border:#000000 solid 10px;}
+    50%{border:#ff0000 solid 10px;}
+    100%{border:#000000 solid 10px;}
+}
+#SignUp{
+    text-align:center;
+}
+#right{
+    -webkit-animation: div 4s infinite;
+    float:right;
+    width:50%;
+    background-color:white;
+}
+.wrapper{
+    height:100%;
+    width:100%;
+}

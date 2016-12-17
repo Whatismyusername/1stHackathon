@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>SignInPage</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="signinpage.css">
+        <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrapper">
+    <marquee><h1>Stop Discrimination</h1></marquee>
+        <div id="left">
+        </div>
+        <div id="right">
+            <h1 id="SignUp">Log In</h1>
+            <h6>Username:</h6><input id="userInput"/><br>
+            <h6>Password:</h6><input id="passInput" type="password" /><br>
+            <button class="submit"><a Href="Questionnaire.html">Enter</a></button>
+        </div>
+        </div>
+        <script>
+       
+        $(".submit").click(function() {
+            var password = "hello";
+        var user = $("#userInput").val();
+        var pass = $("#passInput").val();
+          alert(pass);
+            if(pass == password){
+                return true;
+            }else {
+                alert("invalid password, try agian");
+                return false;
+            }
+        });
+        </script>
+    </body>
+</html>

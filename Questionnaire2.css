@@ -1,0 +1,165 @@
+body{
+    -webkit-animation: background 5s infinite;
+}
+@-webkit-keyframes background{
+    0%{background-color:#ffffff;}
+    50%{background-color:#b3d9ff;}
+    100%{background-color:#fffffff;}
+}
+h1{
+    font-family:Baloo Bhaina;
+    font-size:700%;
+    text-align:center;
+}
+div{
+    margin:20px;
+}
+#problem{
+    background-color:white;
+    width:95%;
+    height:50%;
+}
+#s1{
+    -webkit-animation: s-1 4s infinite;
+}
+#s2{
+    -webkit-animation: s-2 4s infinite;
+}
+#s3{
+    -webkit-animation: s-3 4s infinite;
+}
+#s4{
+    -webkit-animation: s-4 4s infinite;
+}
+#s5{
+    -webkit-animation: s-5 4s infinite;
+}
+#s6{
+    -webkit-animation: s-6 4s infinite;
+}
+#s7{
+    -webkit-animation: s-7 4s infinite;
+}
+#s8{
+    -webkit-animation: s-8 4s infinite;
+}
+@-webkit-keyframes s-1{
+    0%{color:#33cccc}
+    8%{color:#0099ff}
+    17%{color:#3366ff}
+    25%{color:#9966ff}
+    33%{color:#ff00ff}
+    42%{color:#ff3399}
+    50%{color:#ff5050}
+    58%{color:#ff9933}
+    67%{color:#ffff00}
+    75%{color:#99ff33}
+    83%{color:#33cc33}
+    92%{color:#00ff99}
+    100%{color:#33cccc}
+}
+@-webkit-keyframes s-2{
+    0%{color:#00ff99;}
+    8%{color:#33cccc;}
+    17%{color:#0099ff;}
+    25%{color:#3366ff;}
+    33%{color:#9966ff;}
+    42%{color:#ff00ff;}
+    50%{color:#ff3399;}
+    58%{color:#ff5050;}
+    67%{color:#ff9933;}
+    75%{color:#ffff00;}
+    83%{color:#99ff33;}
+    92%{color:#33cc33;}
+    100%{color:#00ff99;}
+}
+@-webkit-keyframes s-3{
+    0%{color:#00ff99;}
+    8%{color:#33cccc;}
+    17%{color:#0099ff;}
+    25%{color:#3366ff;}
+    33%{color:#9966ff;}
+    42%{color:#ff00ff;}
+    50%{color:#ff3399;}
+    58%{color:#ff5050;}
+    67%{color:#ff9933;}
+    75%{color:#ffff00;}
+    83%{color:#99ff33;}
+    92%{color:#33cc33;}
+    100%{color:#00ff99;}
+}
+@-webkit-keyframes s-4{
+    0%{color:#33cc33;}
+    8%{color:#00ff99;}
+    17%{color:#33cccc;}
+    25%{color:#0099ff;}
+    33%{color:#3366ff;}
+    42%{color:#9966ff;}
+    50%{color:#ff00ff;}
+    58%{color:#ff3399;}
+    67%{color:#ff5050;}
+    75%{color:#ff9933;}
+    83%{color:#ffff00;}
+    92%{color:#99ff33;}
+    100%{color:#33cc33;}
+}
+@-webkit-keyframes s-5{
+    0%{color:#99ff33;}
+    8%{color:#33cc33;}
+    17%{color:#00ff99;}
+    25%{color:#33cccc;}
+    33%{color:#0099ff;}
+    42%{color:#3366ff;}
+    50%{color:#9966ff;}
+    58%{color:#ff00ff;}
+    67%{color:#ff3399;}
+    75%{color:#ff5050;}
+    83%{color:#ff9933;}
+    92%{color:#ffff00;}
+    100%{color:#99ff33;}
+}
+@-webkit-keyframes s-6{
+    0%{color:#ffff00;}
+    8%{color:#99ff33;}
+    17%{color:#33cc33;}
+    25%{color:#00ff99;}
+    33%{color:#33cccc;}
+    42%{color:#0099ff;}
+    50%{color:#3366ff;}
+    58%{color:#9966ff;}
+    67%{color:#ff00ff;}
+    75%{color:#ff3399;}
+    83%{color:#ff5050;}
+    92%{color:#ff9933;}
+    100%{color:#ffff00;}
+}
+@-webkit-keyframes s-7{
+    0%{color:#ff9933;}
+    8%{color:#ffff00;}
+    17%{color:#99ff33;}
+    25%{color:#33cc33;}
+    33%{color:#00ff99;}
+    42%{color:#33cccc;}
+    50%{color:#0099ff;}
+    58%{color:#3366ff;}
+    67%{color:#9966ff;}
+    75%{color:#ff00ff;}
+    83%{color:#ff3399;}
+    92%{color:#ff5050;}
+    100%{color:#ff9933;}
+}
+@-webkit-keyframes s-8{
+    0%{color:#ff5050;}
+    8%{color:#ff9933;}
+    17%{color:#ffff00;}
+    25%{color:#99ff33;}
+    33%{color:#33cc33;}
+    42%{color:#00ff99;}
+    50%{color:#33cccc;}
+    58%{color:#0099ff;}
+    67%{color:#3366ff;}
+    75%{color:#9966ff;}
+    83%{color:#ff00ff;}
+    92%{color:#ff3399;}
+    100%{color:#ff5050;}
+}

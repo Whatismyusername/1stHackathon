@@ -1,0 +1,46 @@
+body{
+}
+
+    
+#Welcome{
+    font-family: 'Poiret One', cursive;
+    
+}    
+
+#SignInDiv{
+    background-size:100%;
+    border:none;
+    background-color:rgba(255,255,255,0.5);
+    font-size:20px;
+    
+
+    padding:300px;
+    background-image:url("https://www.gofundmission.org/projectzionpodcast/wp-content/uploads/2016/02/17unity-in-diversity.png");
+    background-repeat:no-repeat;
+    position:fixed;
+    margin:0 auto;
+}
+
+#b1:hover{
+    background-color:gray;
+    color:black;
+}
+#b2:hover{
+    background-color:gray;
+    color:black;
+}
+#wrapper{
+    border:#000000 solid 40px;
+    border-radius:20px;
+    position:relative;
+}
+
+#b2{
+    width:80px;
+    height:30px;
+    margin-top:10px;
+    font-family: 'Poiret One', cursive;
+}o
+#forgot{
+  font-family: 'Poiret One', cursive;  
+}

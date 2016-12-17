@@ -1,0 +1,61 @@
+
+.Questionare{
+
+    font-family: 'Poiret One', cursive;
+}
+
+.fname{
+    margin-top:15px;
+    
+}
+.lname{
+    margin-top:15px;
+}
+.age{
+    margin-top:15px;
+}
+.problem{
+    margin-top:15px;
+}
+.email{
+    margin-top:15px;
+}
+.btn-circle {
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.blueproblem{
+    margin-top:15px;
+    background-color:#1E90FF;
+    
+}
+.blueproblem:hover{
+    background-color:#1E90FF;
+    color:#1E90FF; 
+}
+.redproblem{
+    margin-top:15px;
+    background-color:red;
+}
+.redproblem:hover{
+    background-color:#FF0000;
+    color:red;
+}
+.comment{
+    margin-top:15px;
+    height:100;
+    display:none;
+}
