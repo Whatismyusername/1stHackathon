@@ -19,6 +19,13 @@ div{
     width:95%;
     height:50%;
 }
+.comments{
+    0%{background-color:#ffffff;}
+}
+#problemText{
+    font-size:14px;
+    font-weight: normal;
+}
 #s1{
     -webkit-animation: s-1 4s infinite;
 }
